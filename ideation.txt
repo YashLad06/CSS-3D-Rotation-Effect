@@ -1,0 +1,32 @@
+We are trying to create a Soda Can 3D rotation effect using CSS Only
+
+Major help for this project: https://youtu.be/ymuBowcODVU
+--------------
+1. A bottle of soda is made of 2 ingradients
+2. The first one is the bottle itself
+3. The second one is the cover photo
+4. For cover photo, you can use any photo, but for Martial arts of rotatin, we need a suitable Image
+5. first, we will visit https://www.freepik.com/
+6. enter keyword > soda mockup
+7. select the image you like, remove background image
+8. select CROP feature, cut out all excess space on the photo
+9. once completed, download the image as .png file
+10. Now, we will create a HTML file, and add start coding
+--------------
+After completing the mockup image setup
+1. we will insert the product cover image upon the product mockup image
+--------------
+How to make the soda bottle rotate
+1. when we instert image into the mockup, The image is repeating infinitely
+2. we don't see it because it is outside the element's size range
+3.So, If I ant to see a different area of image, I just need to move it to a certain distance, right?
+4. So, we will use CSS transform property to move the image to a certain distance
+5. In the background property, there are 2 values that represent the left and top distance of the image from the element
+6. their default value is 0
+7. we will change the value to 100px, so that the image will move 100
+--------------
+If we try to create a hover effect on product the soda can rotates as follow:
+1. Github repo: https://github.com/HoanghoDev/youtube_v2/tree/main/3d%20Rotate%20CSS%20Only
+2. In default state: we will hide the 2nd soda can
+3. On hover, we will hode the 1st soda can
+--------------
